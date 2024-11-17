@@ -1,0 +1,97 @@
+header{
+    background-color: #292E36;
+}
+.head_main_div{
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+    align-items: center;
+    border-bottom: solid 1px #5C6168;
+}
+.call{
+    background-color: inherit;
+    border: 2px solid #E1B168;
+    width: 15rem;
+    height: 4rem;
+    color: white;
+
+}
+.reserve{
+    border: 2px solid #E1B168;
+    width: 15rem;
+    height: 4rem;
+    color: black;
+    background-color: #E1B168;
+}
+.head_bot_main_div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    height: 8rem;
+    align-items: center;
+}
+.routes{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+.routes a{
+    text-decoration: none;
+    color: white;
+}
+.routes a:hover{
+    color:#E1B168 ;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+.Welcome_div{
+    border-top:2px dashed #5C6168 ;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.Welcome_left{
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 50rem;
+    justify-content: center;
+    align-items: start;
+}
+.Welcome_left h1{
+    color: white;
+
+    font-size: 9rem;
+    font-weight: lighter;
+}
+.Welcome_left p{
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+
+
+}
+.Welcome_left button{
+    width: 15rem;
+    height: 4rem;
+    color: #E1B168;
+    border: 2px solid #E1B168;
+    background-color: inherit;
+}
+.Welcome_img{
+    height: 52rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Welcome_img img{
+    height: 100%;
+    margin-top: 1rem;
+}

@@ -1,0 +1,61 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 5rem auto;
+}
+.menu_left{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+.menu_right{
+    width: 45%;
+}
+.menu_left_bot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.5rem;
+}
+.menu_left_bot button{
+    height: 4rem;
+    width: 15rem;
+    color: #E1B168;
+    background-color: inherit;
+    border:2px solid #E1B168;
+}
+.bord_div{
+    width:50%;
+    height: 100%;
+    position: relative;
+    top: 1rem;
+    border-bottom: 2px solid #5C6168;
+}
+.menu_list_position{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.posit{
+    display: flex;
+
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.posit h3{
+    font-size: 2rem;
+}
+.posit_content{
+    width: 90%;
+}
